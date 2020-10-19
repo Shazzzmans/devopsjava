@@ -6,7 +6,7 @@ node('node1') {
         javaHome = tool 'jdk8'
     }
     stage('Checkout') {
-        git url:'https://github.com/atinsingh/devopsjava.git', branch:'master'
+        git url:'https://github.com/Shazzzmans/devopsjava.git', branch:'master'
     }
     stage('Compile') {
         // Run the maven build
